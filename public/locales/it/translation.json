@@ -1,3 +1,15 @@
 {
-    
+  "navbar": {
+    "about": "Сhi siamo",
+    "whyWe": "Perché noi",
+    "services": "I nostri servizi",
+    "contacts": "Contatti"
+  },
+  "hero": {
+    "title 1": "Diamo energia al tuo futuro",
+    "title 2": "con soluzioni chiavi in mano",
+    "title 3": "per l'energia verde",
+    "text": "Fornitura, installazione e manutenzione complete per tutte le tecnologie di energia rinnovabile.",
+    "button": "Contattaci"
+  }
 }

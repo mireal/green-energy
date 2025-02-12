@@ -1,3 +1,15 @@
 {
-    
+  "navbar": {
+    "about": "About",
+    "whyWe": "Why we",
+    "services": "Our services",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title 1": "Empowering Your Future",
+    "title 2": "with Turnkey Green",
+    "title 3": "Energy Solutions",
+    "text": "Comprehensive supply, installation, and maintenance services for all renewable energy technologies.",
+    "button": "Connect us"
+  }
 }
