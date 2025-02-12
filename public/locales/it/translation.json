@@ -11,5 +11,27 @@
     "title 3": "per l'energia verde",
     "text": "Fornitura, installazione e manutenzione complete per tutte le tecnologie di energia rinnovabile.",
     "button": "Contattaci"
+  },
+  "about": {
+    "section": "Chi siamo",
+    "header": "La nostra missione è guidare la transizione verso un futuro sostenibile fornendo soluzioni innovative, efficienti e affidabili nel settore delle energie rinnovabili.",
+    "blocks": {
+      "first": {
+        "title": "Sostenibilità",
+        "text": "Ci impegniamo a ridurre l'impatto ambientale e a preservare le risorse naturali."
+      },
+      "second": {
+        "title": "Innovazione",
+        "text": "Sfruttiamo le tecnologie più avanzate per rimanere all'avanguardia nel settore delle energie rinnovabili."
+      },
+      "third": {
+        "title": "Affidabilità",
+        "text": "La nostra esperienza garantisce la consegna dei progetti nei tempi previsti e secondo i più alti standard di qualità."
+      },
+      "fourth": {
+        "title": "Orientamento al cliente",
+        "text": "Costruiamo relazioni durature soddisfacendo e superando le aspettative dei nostri clienti."
+      }
+    }
   }
 }

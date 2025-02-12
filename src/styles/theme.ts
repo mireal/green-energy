@@ -1,4 +1,4 @@
-import { ThemeOptions, createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { ThemeOptions, createTheme } from '@mui/material/styles';
 import React from 'react';
 
 const breakpoints: ThemeOptions = {
@@ -65,85 +65,93 @@ declare module '@mui/material/Typography' {
   }
 }
 
-const theme = responsiveFontSizes(
-  createTheme({
-    ...breakpoints,
+const theme = createTheme({
+  ...breakpoints,
 
-    palette: {
-      primary: {
-        main: '#888888', // grey
-        light: '#CFD7DE', //light grey
-        dark: '#515151', //dark grey
-        contrastText: '#FFFFFF' //white
-      },
-      secondary: {
-        main: '#10466D', //dark blue
-        light: '#2A6CA0', //light blue
-        dark: '#1C1C1C' //black
-      },
-      background: {
-        default: '#E4E9EC', //BG
-        paper: '#10466D' //dark blue
-      },
-      text: {
-        primary: '#000000',
-        secondary: '#999999',
-        disabled: '#C3C1BD'
-      }
+  palette: {
+    primary: {
+      main: '#888888', // grey
+      light: '#CFD7DE', //light grey
+      dark: '#515151', //dark grey
+      contrastText: '#FFFFFF' //white
+    },
+    secondary: {
+      main: '#10466D', //dark blue
+      light: '#2A6CA0', //light blue
+      dark: '#1C1C1C' //black
+    },
+    background: {
+      default: '#E4E9EC', //BG
+      paper: '#10466D' //dark blue
+    },
+    text: {
+      primary: '#000000',
+      secondary: '#999999',
+      disabled: '#C3C1BD'
+    }
+  },
+
+  typography: {
+    fontFamily: '"Roboto", sans-serif',
+
+    h1: {
+      color: '#2A6CA0',
+      fontWeight: '600',
+      '@media (min-width:960px)': { fontSize: '58px' },
+      '@media (max-width:959px)': { fontSize: '46px' },
+      '@media (max-width:727px)': { fontSize: '28px' },
+      '@media (max-width:447px)': { fontSize: '22px' }
     },
 
-    typography: {
-      fontFamily: '"Roboto", sans-serif',
-
-      h1: {
-        color: '#2A6CA0',
-        fontWeight: '600',
-        '@media (min-width:960px)': { fontSize: '58px' },
-        '@media (max-width:959px)': { fontSize: '46px' },
-        '@media (max-width:727px)': { fontSize: '28px' },
-        '@media (max-width:447px)': { fontSize: '22px' }
-      },
-
-      h2: {
-        color: 'secondary.light'
-      },
-
-      body1: {
-        fontSize: '16px',
-        lineHeight: '130%'
-      }
+    h2: {
+      color: '#2A6CA0',
+      fontWeight: '600',
+      '@media (min-width:728px)': { fontSize: '32px' },
+      '@media (max-width:727px)': { fontSize: '22px' }
     },
 
-    components: {
-      MuiCssBaseline: {
-        styleOverrides: {
-          body: {
-            // ---CSS BODY--- \\
+    h4: {
+      fontSize: '18px',
+      fontWeight: '700',
+      lineHeight: '127%'
+    },
+
+    body1: {
+      fontSize: '16px',
+      lineHeight: '130%'
+    }
+  },
+
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          // ---CSS BODY--- \\
+        }
+      }
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          cursor: 'pointer',
+          textDecoration: 'none',
+          lineHeight: '16px',
+          transition: 'all 0.1s ease-in-out',
+          '&:hover': {
+            opacity: 0.8
           }
         }
-      },
-      MuiLink: {
-        styleOverrides: {
-          root: {
-            cursor: 'pointer',
-            textDecoration: 'none',
-            lineHeight: '16px',
-            transition: 'all 0.1s ease-in-out',
-            '&:hover': {
-              opacity: 0.8
-            }
-          }
-        }
-      },
-      MuiIconButton: {
-        styleOverrides: {
-          root: {
-            aspectRatio: '1/1'
-          }
+      }
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: {
+          aspectRatio: '1/1'
         }
       }
     }
-  })
-)
+  }
+})
+
 
 export default theme;

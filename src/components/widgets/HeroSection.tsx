@@ -100,7 +100,7 @@ export default function HeroSection() {
                             color: { mobileP: 'primary.contrastText', tablet: 'secondary.dark' },
                             width: { mobileP: '100%', tablet: "241px", desktopS: '297px', desktopM: '356px' }
                         }}>
-                        Connect us
+                        {t('hero.button')}
                     </WhiteButton>
                 </Stack>
 

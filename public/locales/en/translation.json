@@ -11,5 +11,27 @@
     "title 3": "Energy Solutions",
     "text": "Comprehensive supply, installation, and maintenance services for all renewable energy technologies.",
     "button": "Connect us"
+  },
+  "about": {
+    "section" : "About",
+    "header": "Our mission is to lead the transition to a sustainable future by delivering innovative, efficient, and reliable renewable energy solutions.",
+    "blocks": {
+      "first": {
+        "title": "Sustainability",
+        "text": "We are dedicated to reducing environmental impact and preserving natural resources."
+      },
+      "second": {
+        "title": "Innovation",
+        "text": "We leverage the latest technologies to stay ahead in the renewable energy sector."
+      },
+      "third": {
+        "title": "Reliability",
+        "text": "Our expertise ensures projects are delivered on time and to the highest standards."
+      },
+      "fourth": {
+        "title": "Customer Focus",
+        "text": "We build long-term relationships by meeting and exceeding client expectations."
+      }
+    }
   }
 }
