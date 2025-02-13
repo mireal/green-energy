@@ -49,7 +49,7 @@ export default function HeroSection() {
                         mr={{ mobileP: '-24px', mobileL: '-36px', tablet: '-42px', desktopS: "-55px", desktopM: '-62px' }}
                         height={{ mobileP: '175px', mobileL: '261px', tablet: '301px', desktopS: '396px', desktopM: '455px' }}
                     >
-                        <img src="./images/windmill-crop.png" style={{ height: '100%' }} />
+                        <img src="./images/hero/windmill-crop.png" style={{ height: '100%' }} />
                     </Box>
 
                     {/* solar panel, always visible */}
@@ -57,7 +57,7 @@ export default function HeroSection() {
                         mr={{ mobileP: '-24px', mobileL: '-36px', tablet: '-42px', desktopS: "-55px", desktopM: '-62px' }}
                         height={{ mobileP: '175px', mobileL: '261px', tablet: '301px', desktopS: '396px', desktopM: '455px' }}
                     >
-                        <img src="./images/solar-panel.png" style={{ height: '100%' }} />
+                        <img src="./images/hero/solar-panel.png" style={{ height: '100%' }} />
                     </Box>
 
                     {/* windmill full, hidden above mobile */}
@@ -65,7 +65,7 @@ export default function HeroSection() {
                         display={{ mobileP: 'block', tablet: 'none' }}
                         height={{ mobileP: '175px', mobileL: '261px' }}
                     >
-                        <img src="./images/windmill-full.png" style={{ height: '100%' }} />
+                        <img src="./images/hero/windmill-full.png" style={{ height: '100%' }} />
                     </Box>
                 </Stack>
 

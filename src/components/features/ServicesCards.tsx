@@ -17,9 +17,10 @@ export default function ServicesCards({ cards }: { cards: (IServiceCard)[] }) {
             marginLeft={{ mobileP: 0, desktopS: '33.3%' }}
         >
             {
-                cards.map((card) => (
+                cards.map((card, index) => (
                     <Grid2
                         size={card.size}
+                        key={index}
                         height={{ mobileP: '150px', mobileL: '219px', tablet: '236px', desktopS: '200px', desktopM: '250px', desktopL: '284px' }}
                     >
                         {

@@ -21,7 +21,7 @@ export default function AboutSection() {
             >
 
                 <img
-                    src="./images/about-image.png"
+                    src="./images/about/about-image.png"
                     style={{
                         height: '340px',
                         width: '100%',
