@@ -5,6 +5,7 @@ import HeroSection from '@/components/widgets/HeroSection'
 import AboutSection from '@/components/widgets/AboutSection'
 import WhySection from '@/components/widgets/WhySection'
 import ServicesSection from '@/components/widgets/ServicesSection'
+import CTASection from '@/components/widgets/CTASection'
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <AboutSection />
             <WhySection />
             <ServicesSection />
+            <CTASection/> 
         </Stack>
     )
 }

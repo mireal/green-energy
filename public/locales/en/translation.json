@@ -99,5 +99,16 @@
         "paragraph": "Ongoing support for long-term efficiency and reliability."
       }
     }
+  },
+  "cta":{
+    "1-left": "Switch to clean ",
+    "1-right": "energy",
+    "2":"with our turnkey solutions.",
+    "3-left": "Reliable, ",
+    "3-right": " efficient, and",
+    "4": "sustainable. Contact us today",
+    "5-left": "to get ",
+    "5-right": " started!",
+    "button" : "Connect us"
   }
 }
