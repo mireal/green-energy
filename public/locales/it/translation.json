@@ -33,5 +33,41 @@
         "text": "Costruiamo relazioni durature soddisfacendo e superando le aspettative dei nostri clienti."
       }
     }
+  },
+  "why": {
+    "section": "Perché scegliere noi?",
+    "title": "Con anni di esperienza nel settore delle energie rinnovabili e numerose installazioni di successo, ecco perché ci distinguiamo:",
+    "content": [
+      {
+        "id": "01",
+        "header": "Principale Fornitore di Energia Rinnovabile",
+        "paragraph": "Siamo uno dei maggiori fornitori di energia rinnovabile in Europa, offrendo soluzioni di alta qualità per aziende di ogni dimensione. Con anni di esperienza e un solido track record, garantiamo affidabilità ed efficienza in ogni progetto.",
+        "tags": ["Successo comprovato", "Leader del settore", "Partner di fiducia"]
+      },
+      {
+        "id": "02",
+        "header": "Soluzioni Chiavi in Mano",
+        "paragraph": "Gestiamo l'intero processo, dalla consulenza alla progettazione, installazione e manutenzione. Il nostro approccio end-to-end semplifica la transizione energetica, eliminando la necessità di più fornitori e garantendo un'esecuzione efficiente del progetto.",
+        "tags": ["Servizio chiavi in mano", "Esecuzione senza intoppi", "Supporto a lungo termine"]
+      },
+      {
+        "id": "03",
+        "header": "Affidabilità per le Grandi Aziende",
+        "paragraph": "I nostri clienti includono le principali aziende europee, industrie e istituzioni governative. Siamo riconosciuti per la nostra affidabilità, trasparenza e impegno nel fornire soluzioni energetiche sostenibili che rispettano i più alti standard del settore.",
+        "tags": ["Leader riconosciuto", "Soluzioni certificate", "Partnership a lungo termine"]
+      },
+      {
+        "id": "04",
+        "header": "ecnologia Avanzata & Sostenibilità",
+        "paragraph": "Utilizziamo tecnologie innovative nel settore delle energie rinnovabili per massimizzare l'efficienza e ridurre l'impatto ambientale. I sistemi di monitoraggio intelligente ottimizzano la produzione di energia, garantendo sostenibilità e convenienza a lungo termine.",
+        "tags": ["Sistemi intelligenti", "Alta efficienza", "Basso impatto ambientale"]
+      },
+      {
+        "id": "05",
+        "header": "Team Esperto e Certificato",
+        "paragraph": "I nostri esperti sono certificati a livello internazionale e continuamente aggiornati sulle ultime innovazioni del settore. Offriamo soluzioni energetiche personalizzate, garantendo un servizio di alta qualità e affidabilità a lungo termine per ogni cliente.",
+        "tags": ["Esperti certificati", "Approccio personalizzato", "Decenni di esperienza"]
+      }
+    ]
   }
 }

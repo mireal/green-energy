@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '@/components/widgets/Navbar'
 import HeroSection from '@/components/widgets/HeroSection'
 import AboutSection from '@/components/widgets/AboutSection'
+import WhySection from '@/components/widgets/WhySection'
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <Navbar/>
             <HeroSection />
             <AboutSection/>
+            <WhySection/>
         </Stack>
     )
 }

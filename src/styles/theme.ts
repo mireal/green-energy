@@ -1,5 +1,5 @@
-import { ThemeOptions, createTheme } from '@mui/material/styles';
-import React from 'react';
+import { ThemeOptions, createTheme } from '@mui/material/styles'
+import React from 'react'
 
 const breakpoints: ThemeOptions = {
   breakpoints: {
@@ -9,59 +9,58 @@ const breakpoints: ThemeOptions = {
       tablet: 728,
       desktopS: 960,
       desktopM: 1280,
-      desktopL: 1440,
+      desktopL: 1440
     }
   }
 }
 
 declare module '@mui/material/styles' {
   interface BreakpointOverrides {
-    xs: false;
-    sm: false;
-    md: false;
-    lg: false;
-    xl: false;
-    mobileP: true;
-    mobileL: true;
-    tablet: true;
-    desktopS: true;
-    desktopM: true;
-    desktopL: true;
+    xs: false
+    sm: false
+    md: false
+    lg: false
+    xl: false
+    mobileP: true
+    mobileL: true
+    tablet: true
+    desktopS: true
+    desktopM: true
+    desktopL: true
   }
 
   interface TypeColor {
-    Darkest?: string;
-    Darker?: string;
-    Dark?: string;
-    Base?: string;
-    Light?: string;
-    Lighter?: string;
-    Lightest?: string;
-    White?: string;
+    Darkest?: string
+    Darker?: string
+    Dark?: string
+    Base?: string
+    Light?: string
+    Lighter?: string
+    Lightest?: string
+    White?: string
   }
   interface TypeText2 {
-    primary: string;
-    secondary: string;
-    disabled: string;
+    primary: string
+    secondary: string
+    disabled: string
   }
 
   // interface PaletteOptions {
   // }
 
   interface TypographyVariants {
-    navLink: React.CSSProperties;
+    navLink: React.CSSProperties
   }
 
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
-    navLink?: React.CSSProperties;
+    navLink?: React.CSSProperties
   }
 }
 
 declare module '@mui/material/Typography' {
   interface TypographyPropsVariantOverrides {
-    navLink: true;
-
+    navLink: true
   }
 }
 
@@ -110,6 +109,13 @@ const theme = createTheme({
       '@media (max-width:727px)': { fontSize: '22px' }
     },
 
+    h3: {
+      color: '#1C1C1C',
+      fontSize: '22px',
+      fontWeight: '700',
+      lineHeight: '120%'
+    },
+
     h4: {
       fontSize: '18px',
       fontWeight: '700',
@@ -153,5 +159,4 @@ const theme = createTheme({
   }
 })
 
-
-export default theme;
+export default theme

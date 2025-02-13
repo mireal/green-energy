@@ -33,5 +33,41 @@
         "text": "We build long-term relationships by meeting and exceeding client expectations."
       }
     }
+  },
+  "why" : {
+    "section": "Why Choose Us?",
+    "title": "With years of experience in renewable energy and countless successful installations, here’s why we stand out:",
+    "content": [
+      {
+        "id": "01",
+        "header": "Leading Provider of Renewable Energy",
+        "paragraph": "We are one of the largest providers of renewable energy in Europe, offering high-quality solutions for businesses of all sizes. With years of experience and a solid track record, we guarantee reliability and efficiency in every project.",
+        "tags": ["Proven success", "Industry leader", "Trusted partner"]
+      },
+      {
+        "id": "02",
+        "header": "Turnkey Solutions",
+        "paragraph": "We manage the entire process, from consultation to design, installation, and maintenance. Our end-to-end approach simplifies the energy transition, eliminating the need for multiple providers and ensuring efficient project execution.",
+        "tags": ["Turnkey service", "Seamless execution", "Long-term support"]
+      },
+      {
+        "id": "03",
+        "header": "Reliability for Large Enterprises",
+        "paragraph": "Our clients include major European companies, industries, and government institutions. We are recognized for our reliability, transparency, and commitment to delivering sustainable energy solutions that meet the highest industry standards.",
+        "tags": ["Recognized leader", "Certified solutions", "Long-term partnerships"]
+      },
+      {
+        "id": "04",
+        "header": "Advanced Technology & Sustainability",
+        "paragraph": "We use innovative technologies in the renewable energy sector to maximize efficiency and reduce environmental impact. Smart monitoring systems optimize energy production, ensuring sustainability and long-term affordability.",
+        "tags": ["Smart systems", "High efficiency", "Low environmental impact"]
+      },
+      {
+        "id": "05",
+        "header": "Expert and Certified Team",
+        "paragraph": "Our experts are internationally certified and continuously updated on the latest industry innovations. We offer customized energy solutions, ensuring high-quality service and long-term reliability for every client.",
+        "tags": ["Certified experts", "Personalized approach", "Decades of experience"]
+      }
+    ]
   }
 }
