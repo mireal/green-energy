@@ -110,5 +110,15 @@
     "5-left": "ora per ",
     "5-right": " iniziare!",
     "button": "Contattaci"
+  },
+  "advantage": {
+    "section": "Cosa ottieni con noi",
+    "title": "Le nostre soluzioni di energia rinnovabile ti aiutano a risparmiare, ridurre l'impatto ambientale, aumentare il valore della proprietà e raggiungere l'indipendenza energetica per un futuro sostenibile.",
+    "blocks" : {
+      "1": "Riduzione dei costi energetici con sistemi rinnovabili efficienti.",
+      "2": "Minore impatto ambientale e riduzione dell'impronta di carbonio.",
+      "3": "Maggiore valore della proprietà grazie all’integrazione di energia sostenibile.",
+      "4": "Indipendenza energetica e sicurezza per il futuro."
+    }
   }
 }

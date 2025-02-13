@@ -21,6 +21,7 @@ export default function SectionTitle({ sectionKey, titleKey }: { sectionKey: str
             <Typography
                 variant="h2"
                 width={{ mobileP: '100%', desktopS: '66.7%' }}
+                textTransform='uppercase'
             >
                 {t(titleKey)}
             </Typography>

@@ -6,6 +6,7 @@ import AboutSection from '@/components/widgets/AboutSection'
 import WhySection from '@/components/widgets/WhySection'
 import ServicesSection from '@/components/widgets/ServicesSection'
 import CTASection from '@/components/widgets/CTASection'
+import AdvantageSection from '@/components/widgets/AdvantageSection'
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <WhySection />
             <ServicesSection />
             <CTASection/> 
+            <AdvantageSection/>
         </Stack>
     )
 }

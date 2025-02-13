@@ -103,7 +103,7 @@ const theme = createTheme({
     },
 
     h2: {
-      color: '#2A6CA0',
+      color: '#10466D',
       fontWeight: '600',
       '@media (min-width:728px)': { fontSize: '32px' },
       '@media (max-width:727px)': { fontSize: '22px' }

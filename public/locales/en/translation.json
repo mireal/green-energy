@@ -110,5 +110,15 @@
     "5-left": "to get ",
     "5-right": " started!",
     "button" : "Connect us"
+  },
+  "advantage": {
+    "section": "What You Gain with Us",
+    "title": "Our renewable energy solutions help you save costs, reduce environmental impact, increase property value, and achieve energy independence for a sustainable future.",
+    "blocks": {
+      "1": "Reduced energy costs with efficient renewable systems.",
+      "2": "Lower environmental impact and carbon footprint.",
+      "3": "Enhanced property value through sustainable energy integration.",
+      "4": "Energy independence and security for the future."
+    }
   }
 }
