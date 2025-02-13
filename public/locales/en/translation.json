@@ -13,7 +13,7 @@
     "button": "Connect us"
   },
   "about": {
-    "section" : "About",
+    "section": "About",
     "header": "Our mission is to lead the transition to a sustainable future by delivering innovative, efficient, and reliable renewable energy solutions.",
     "blocks": {
       "first": {
@@ -34,7 +34,7 @@
       }
     }
   },
-  "why" : {
+  "why": {
     "section": "Why Choose Us?",
     "title": "With years of experience in renewable energy and countless successful installations, here’s why we stand out:",
     "content": [
@@ -69,5 +69,35 @@
         "tags": ["Certified experts", "Personalized approach", "Decades of experience"]
       }
     ]
+  },
+  "services": {
+    "section": "Our Services",
+    "title": "Comprehensive Renewable Energy Solutions",
+    "cards": {
+      "consultation": {
+        "title": "Energy Consultation",
+        "paragraph": "Assessing your energy needs and designing optimal solutions."
+      },
+      "engineering": {
+        "title": "System Design & Engineering",
+        "paragraph": "Customized systems to maximize performance and sustainability."
+      },
+      "supply": {
+        "title": "Supply of Equipment",
+        "paragraph": "High-quality solar panels, wind turbines, batteries, and more."
+      },
+      "installation": {
+        "title": "Installation Services",
+        "paragraph": "Professional installation by certified technicians."
+      },
+      "monitoring": {
+        "title": "Energy Monitoring & Management",
+        "paragraph": "Ongoing support for long-term efficiency and reliability."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "paragraph": "Ongoing support for long-term efficiency and reliability."
+      }
+    }
   }
 }

@@ -69,5 +69,35 @@
         "tags": ["Esperti certificati", "Approccio personalizzato", "Decenni di esperienza"]
       }
     ]
+  },
+  "services": {
+    "section": "I nostri servizi",
+    "title": "Soluzioni Complete di Energia Rinnovabile",
+    "cards": {
+      "consultation": {
+        "title": "Consulenza Energetica",
+        "paragraph": "Analisi delle tue esigenze energetiche e progettazione di soluzioni ottimali."
+      },
+      "engineering": {
+        "title": "Progettazione e Ingegneria",
+        "paragraph": "Analisi delle tue esigenze energetiche e progettazione di soluzioni ottimali."
+      },
+      "supply": {
+        "title": "Fornitura di Attrezzature",
+        "paragraph": "Pannelli solari, turbine eoliche, batterie di alta qualità e molto altro."
+      },
+      "installation": {
+        "title": "Servizi di Installazione",
+        "paragraph": "Installazione professionale eseguita da tecnici certificati."
+      },
+      "monitoring": {
+        "title": "Monitoraggio e Gestione dell’Energia",
+        "paragraph": "Sistemi avanzati per tracciare, ottimizzare e immagazzinare energia."
+      },
+      "maintenance": {
+        "title": "Manutenzione e Assistenza",
+        "paragraph": "Supporto continuo per garantire efficienza e affidabilità a lungo termine."
+      }
+    }
   }
 }

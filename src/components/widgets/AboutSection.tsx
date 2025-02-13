@@ -1,4 +1,4 @@
-import { Stack} from "@mui/material";
+import { Stack } from "@mui/material";
 import PaddedSection from "../shared/PaddedSection";
 import AboutTable from "../features/AboutSectionTable";
 import SectionTitle from "../shared/SectionTitle";
