@@ -100,16 +100,16 @@
       }
     }
   },
-  "cta":{
+  "cta": {
     "1-left": "Switch to clean ",
     "1-right": "energy",
-    "2":"with our turnkey solutions.",
+    "2": "with our turnkey solutions.",
     "3-left": "Reliable, ",
     "3-right": " efficient, and",
     "4": "sustainable. Contact us today",
     "5-left": "to get ",
     "5-right": " started!",
-    "button" : "Connect us"
+    "button": "Connect us"
   },
   "advantage": {
     "section": "What You Gain with Us",
@@ -120,5 +120,48 @@
       "3": "Enhanced property value through sustainable energy integration.",
       "4": "Energy independence and security for the future."
     }
+  },
+  "testimonials": {
+    "section": "Client Testimonials",
+    "button-more": "Show more",
+    "button-less": "Show less",
+    "cards": [
+      {
+        "text": "Exceptional service from start to finish! The team handled everything seamlessly, and our energy costs have dropped significantly. Highly recommended!",
+        "author": "Luca Romano",
+        "profession": "Manufacturing Plant Owner",
+        "location": "Italy"
+      },
+      {
+        "text": "Reliable, professional, and committed to sustainability. Our hotels now run on clean energy, reducing costs and enhancing our eco-friendly reputation. Their expertise and seamless execution made the transition effortless.",
+        "author": "Sophie Martin",
+        "profession": "Hotel Chain Manager",
+        "location": "France "
+      },
+      {
+        "text": "We wanted a more energy-efficient production facility. Their team provided a seamless transition to renewable energy, optimizing our operations while lowering costs. The installation was fast, and their ongoing support has been outstanding. A trusted partner for sustainability!",
+        "author": "Johan Andersson",
+        "profession": "Industrial Engineer",
+        "location": "Sweden"
+      },
+      {
+        "text": "Switching to renewable energy has increased our property value while lowering operational expenses. Their team took care of everything, and the results speak for themselves.",
+        "author": "Elena Rossi",
+        "profession": "Real Estate Developer",
+        "location": "Italy"
+      },
+      {
+        "text": "The best investment we’ve made! Our facility now runs on clean energy, and their smart monitoring system ensures everything is optimized for efficiency.",
+        "author": "Patrick Müller",
+        "profession": "Logistics Center Director",
+        "location": "Germany"
+      },
+      {
+        "text": "As a farm owner, energy independence was a priority. Their solar and wind solutions allow us to operate sustainably while cutting down costs. A fantastic team that truly understands green energy!",
+        "author": "Miguel Álvarez",
+        "profession": "Agricultural Business Owner",
+        "location": "Spain"
+      }
+    ]
   }
 }

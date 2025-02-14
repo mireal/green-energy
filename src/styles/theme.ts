@@ -84,7 +84,7 @@ const theme = createTheme({
       paper: '#10466D' //dark blue
     },
     text: {
-      primary: '#000000',
+      primary: '#1C1C1C',
       secondary: '#999999',
       disabled: '#C3C1BD'
     }
@@ -110,7 +110,6 @@ const theme = createTheme({
     },
 
     h3: {
-      color: '#1C1C1C',
       fontSize: '22px',
       fontWeight: '700',
       lineHeight: '120%'

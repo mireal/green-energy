@@ -7,6 +7,7 @@ import WhySection from '@/components/widgets/WhySection'
 import ServicesSection from '@/components/widgets/ServicesSection'
 import CTASection from '@/components/widgets/CTASection'
 import AdvantageSection from '@/components/widgets/AdvantageSection'
+import TestimonialsSection from '@/components/widgets/TestimonialsSection'
 
 export default function Home() {
     return (
@@ -16,8 +17,9 @@ export default function Home() {
             <AboutSection />
             <WhySection />
             <ServicesSection />
-            <CTASection/> 
-            <AdvantageSection/>
+            <CTASection />
+            <AdvantageSection />
+            <TestimonialsSection />
         </Stack>
     )
 }

@@ -1,6 +1,12 @@
 import { Stack, Typography } from "@mui/material";
-import { IServiceCard } from "../features/ServicesCards";
 import { useTranslation } from "react-i18next";
+
+export interface IServiceCard {
+    size: number,
+    src?: string
+    key?: string,
+    colored?: boolean
+}
 
 export default function ServicesCard({ card }: { card: IServiceCard }) {
     const { t } = useTranslation()

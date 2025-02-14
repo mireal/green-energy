@@ -1,12 +1,5 @@
 import { Grid2 } from "@mui/material";
-import ServicesCard from "../entities/ServicesCard";
-
-export interface IServiceCard {
-    size: number,
-    src?: string
-    key?: string,
-    colored?: boolean
-}
+import ServicesCard, { IServiceCard } from "../entities/ServicesCard";
 
 export default function ServicesCards({ cards }: { cards: (IServiceCard)[] }) {
     return (

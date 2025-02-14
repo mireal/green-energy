@@ -114,11 +114,54 @@
   "advantage": {
     "section": "Cosa ottieni con noi",
     "title": "Le nostre soluzioni di energia rinnovabile ti aiutano a risparmiare, ridurre l'impatto ambientale, aumentare il valore della proprietà e raggiungere l'indipendenza energetica per un futuro sostenibile.",
-    "blocks" : {
+    "blocks": {
       "1": "Riduzione dei costi energetici con sistemi rinnovabili efficienti.",
       "2": "Minore impatto ambientale e riduzione dell'impronta di carbonio.",
       "3": "Maggiore valore della proprietà grazie all’integrazione di energia sostenibile.",
       "4": "Indipendenza energetica e sicurezza per il futuro."
     }
+  },
+  "testimonials": {
+    "section": "Testimonianze dei Clienti",
+    "button-more": "Mostra di più",
+    "button-less": "Mostra di meno",
+    "cards": [
+      {
+        "text": "Servizio eccezionale! L'intero processo è stato fluido e ora risparmiamo significativamente sui costi energetici.",
+        "author": "Luca Romano",
+        "profession": "Proprietario di impianto di produzione",
+        "location": "Italia"
+      },
+      {
+        "text": "Affidabili, professionali e impegnati nella sostenibilità. I nostri hotel funzionano ora con energia pulita, riducendo i costi e migliorando la nostra reputazione ecologica. La loro esperienza e un'installazione impeccabile hanno reso la transizione semplice.",
+        "author": "Sophie Martin",
+        "profession": "Manager di catena alberghiera",
+        "location": "Francia"
+      },
+      {
+        "text": "Volevamo un impianto di produzione più efficiente dal punto di vista energetico. Il loro team ha fornito una transizione senza intoppi all'energia rinnovabile, ottimizzando le operazioni e riducendo i costi. L'installazione è stata rapida e il supporto continuo eccellente. Un partner di fiducia per la sostenibilità!",
+        "author": "Johan Andersson",
+        "profession": "Ingegnere industriale",
+        "location": "Svezia"
+      },
+      {
+        "text": "Passare alle energie rinnovabili ha aumentato il valore della nostra proprietà e ridotto le spese operative. Il loro team si è occupato di tutto e i risultati parlano da soli.",
+        "author": "Elena Rossi",
+        "profession": "Sviluppatrice immobiliare",
+        "location": "Italia"
+      },
+      {
+        "text": "Il miglior investimento che abbiamo fatto! La nostra struttura ora funziona con energia pulita e il loro sistema di monitoraggio intelligente ottimizza tutto per la massima efficienza.",
+        "author": "Patrick Müller",
+        "profession": "Direttore di centro logistico",
+        "location": "Germania"
+      },
+      {
+        "text": "Come agricoltore, l'indipendenza energetica era una priorità. Le loro soluzioni solari ed eoliche ci permettono di operare in modo sostenibile riducendo i costi. Un team fantastico che conosce davvero l'energia verde!",
+        "author": "Miguel Álvarez",
+        "profession": "Proprietario di azienda agricola",
+        "location": "Spagna"
+      }
+    ]
   }
 }
