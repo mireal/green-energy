@@ -7,7 +7,7 @@ export default function WhySection() {
     const keys = ["0", "1", "2", "3", "4"]
     // const { t } = useTranslation()
     return (
-        <PaddedSection>
+        <PaddedSection id="why-section">
             <SectionTitle sectionKey="why.section" titleKey="why.title" />
 
             <WhySectionTable keys={keys} />

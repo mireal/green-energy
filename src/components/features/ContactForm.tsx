@@ -26,7 +26,7 @@ const InputField = styled(Input)(({ theme }) => ({
         color: theme.palette.primary.light,
         opacity: 1
     }
-    
+
 }));
 
 const initialValues = {
@@ -148,7 +148,7 @@ export default function ContactForm() {
                         color: '#262626',
                         textTransform: 'capitalize'
                     }}
-                    endIcon={<SouthEastIcon/>}
+                    endIcon={<SouthEastIcon />}
                 >
                     {t("form.button")}
                 </Button>

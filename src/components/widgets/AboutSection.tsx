@@ -8,7 +8,7 @@ const keys = ['first', 'second', 'third', 'fourth'];
 export default function AboutSection() {
 
     return (
-        <PaddedSection>
+        <PaddedSection id="about-section">
             <SectionTitle
                 sectionKey="about.section"
                 titleKey="about.header"

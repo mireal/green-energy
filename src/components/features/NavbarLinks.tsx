@@ -27,16 +27,32 @@ export default function NavbarListItems() {
                 direction='row'
             >
 
-                <Link underline="hover" sx={linkStyle} >
+                <Link
+                    underline="hover"
+                    sx={linkStyle}
+                    href='#about-section'
+                >
                     {t('navbar.about')}
                 </Link>
-                <Link underline="hover" sx={linkStyle}>
+                <Link
+                    underline="hover"
+                    sx={linkStyle}
+                    href='#why-section'
+                >
                     {t('navbar.whyWe')}
                 </Link>
-                <Link underline="hover" sx={linkStyle}>
+                <Link
+                    underline="hover"
+                    sx={linkStyle}
+                    href='#services-section'
+                >
                     {t('navbar.services')}
                 </Link>
-                <Link underline="hover" sx={linkStyle}>
+                <Link
+                    underline="hover"
+                    sx={linkStyle}
+                    href='#contact-section'
+                >
                     {t('navbar.contacts')}
                 </Link>
 

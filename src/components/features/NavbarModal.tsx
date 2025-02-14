@@ -79,16 +79,36 @@ export default function NavbarModal({ open, handleClose }: { open: boolean, hand
                     >
                         {/* links */}
                         <Stack gap='30px'>
-                            <Link underline="hover" sx={linkStyle} >
+                            <Link
+                                underline="hover"
+                                sx={linkStyle}
+                                href='#about-section'
+                                onClick={handleClose}
+                            >
                                 {t('navbar.about')}
                             </Link>
-                            <Link underline="hover" sx={linkStyle}>
+                            <Link
+                                underline="hover"
+                                sx={linkStyle}
+                                href='#why-section'
+                                onClick={handleClose}
+                            >
                                 {t('navbar.whyWe')}
                             </Link>
-                            <Link underline="hover" sx={linkStyle}>
+                            <Link
+                                underline="hover"
+                                sx={linkStyle}
+                                href='#services-section'
+                                onClick={handleClose}
+                            >
                                 {t('navbar.services')}
                             </Link>
-                            <Link underline="hover" sx={linkStyle}>
+                            <Link
+                                underline="hover"
+                                sx={linkStyle}
+                                href='#contact-section'
+                                onClick={handleClose}
+                            >
                                 {t('navbar.contacts')}
                             </Link>
                         </Stack>

@@ -9,7 +9,7 @@ const FormSection: React.FC<BoxProps> = () => {
 
     return (
 
-        <PaddedSection>
+        <PaddedSection id='contact-section'>
             <Stack
                 direction={{ mobileP: 'column', desktopS: 'row' }}
                 gap={{ mobileP: '20px', desktopS: 0 }}
@@ -21,6 +21,7 @@ const FormSection: React.FC<BoxProps> = () => {
                     color='primary.contrastText'
                     minWidth='33.3%'
                     textTransform='uppercase'
+                    paddingRight={{mobileP:0, desktopM:'30px'}}
                 >
                     {t('form.title')}
                 </Typography>

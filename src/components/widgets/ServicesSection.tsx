@@ -52,7 +52,7 @@ export default function ServicesSection() {
         },
     ]
     return (
-        <PaddedSection>
+        <PaddedSection id="services-section">
             <SectionTitle sectionKey="services.section" titleKey="services.title" />
             <ServicesCards cards={cards} />
         </PaddedSection>
