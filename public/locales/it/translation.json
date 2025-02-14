@@ -163,5 +163,18 @@
         "location": "Spagna"
       }
     ]
+  },
+  "form": {
+    "title": "Mettiti in contatto con noi",
+    "info": "Hai domande o vuoi saperne di più sulle nostre soluzioni solari? Compila il modulo qui sotto e il nostro team ti risponderà entro 24 ore.",
+    "button": "Invia",
+    "success": "Grazie! La tua richiesta è stata ricevuta!",
+    "error": "Oops! Qualcosa è andato storto durante l'invio del modulo.",
+    "placeholders": {
+      "name": "NOME",
+      "email": "EMAIL",
+      "phone": "Numero di telefono",
+      "message": "MESSAGIO"
+    }
   }
 }
