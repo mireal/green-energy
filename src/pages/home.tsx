@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import { Box, Stack } from '@mui/material'
 import React from 'react'
 import Navbar from '@/components/widgets/Navbar'
 import HeroSection from '@/components/widgets/HeroSection'
@@ -21,7 +21,13 @@ export default function Home() {
             <CTASection />
             <AdvantageSection />
             <TestimonialsSection />
-            <FormSection />
+            <Stack
+                alignItems='center'
+                width='100%'
+                bgcolor='secondary.main'
+            >
+                <FormSection />
+            </Stack>
         </Stack>
     )
 }

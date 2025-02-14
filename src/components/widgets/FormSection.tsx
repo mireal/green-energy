@@ -9,9 +9,7 @@ const FormSection: React.FC<BoxProps> = () => {
 
     return (
 
-        <PaddedSection
-            bgcolor='secondary.main'
-        >
+        <PaddedSection>
             <Stack
                 direction={{ mobileP: 'column', desktopS: 'row' }}
                 gap={{ mobileP: '20px', desktopS: 0 }}
