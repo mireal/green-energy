@@ -170,11 +170,32 @@
     "button": "Invia",
     "success": "Grazie! La tua richiesta è stata ricevuta!",
     "error": "Oops! Qualcosa è andato storto durante l'invio del modulo.",
-    "placeholders": {
+    "placeholder": {
       "name": "NOME",
       "email": "EMAIL",
       "phone": "Numero di telefono",
       "message": "MESSAGIO"
+    },
+    "validation": {
+      "name": {
+        "min": "Il nome deve contenere almeno 2 caratteri",
+        "max": "Il nome non può superare i 50 caratteri",
+        "match": "Il nome può contenere solo lettere e spazi",
+        "required": "Il nome è obbligatorio"
+      },
+      "phone": {
+        "match": "Numero di telefono non valido",
+        "required": "Il numero di telefono è obbligatorio"
+      },
+      "email": {
+        "email": "Formato dell'indirizzo email non valido",
+        "required": "L'email è obbligatoria"
+      },
+      "message": {
+        "min": "Il messaggio deve contenere almeno 10 caratteri",
+        "max": "Il messaggio non può superare i 500 caratteri",
+        "required": "Il messaggio è obbligatorio"
+      }
     }
   }
 }

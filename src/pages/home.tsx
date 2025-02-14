@@ -8,6 +8,7 @@ import ServicesSection from '@/components/widgets/ServicesSection'
 import CTASection from '@/components/widgets/CTASection'
 import AdvantageSection from '@/components/widgets/AdvantageSection'
 import TestimonialsSection from '@/components/widgets/TestimonialsSection'
+import FormSection from '@/components/widgets/FormSection'
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <CTASection />
             <AdvantageSection />
             <TestimonialsSection />
+            <FormSection />
         </Stack>
     )
 }

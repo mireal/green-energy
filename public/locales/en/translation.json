@@ -170,11 +170,32 @@
     "button": "Submit",
     "success": "Thank you! Your request has been received!",
     "error": "Oops! Something went wrong while submitting the form.",
-    "placeholders": {
+    "placeholder": {
       "name": "NAME",
       "email": "EMAIL",
       "phone": "PHONE NUMBER",
       "message": "MESSAGE"
+    },
+    "validation": {
+      "name": {
+        "min": "Name must be at least 2 characters long",
+        "max": "Name must be at most 50 characters long",
+        "match": "Name can only contain letters and spaces",
+        "required": "Name is required"
+      },
+      "phone": {
+        "match": "Invalid phone number",
+        "required": "Phone number is required"
+      },
+      "email": {
+        "email": "Invalid email address format",
+        "required": "Email is required"
+      },
+      "message": {
+        "min": "Message must be at least 10 characters long",
+        "max": "Message must be at most 500 characters long",
+        "required": "Message is required"
+      }
     }
   }
 }
