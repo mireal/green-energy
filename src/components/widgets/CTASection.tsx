@@ -103,6 +103,7 @@ export default function CTASection() {
                             lineHeight: '110%',
                         }}
                         endIcon={<SouthEastIcon />}
+                        href="#contact-section"
                     >
                         {t('cta.button')}
                     </Button>

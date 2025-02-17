@@ -99,7 +99,8 @@ export default function HeroSection() {
                             backgroundColor: { mobileP: 'secondary.dark', tablet: 'primary.contrastText' },
                             color: { mobileP: 'primary.contrastText', tablet: 'secondary.dark' },
                             width: { mobileP: '100%', tablet: "241px", desktopS: '297px', desktopM: '356px' }
-                        }}>
+                        }}
+                        href="#contact-section">
                         {t('hero.button')}
                     </WhiteButton>
                 </Stack>
