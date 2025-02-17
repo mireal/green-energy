@@ -7,7 +7,7 @@ export default function ServicesCards({ cards }: { cards: (IServiceCard)[] }) {
             container
             columns={{ mobileP: 1, mobileL: 2, tablet: 3 }}
             spacing='10px'
-            marginLeft={{ mobileP: 0, desktopS: '33.3%' }}
+            marginLeft={{ mobileP: 0, desktopS: '35%' }}
         >
             {
                 cards.map((card, index) => (

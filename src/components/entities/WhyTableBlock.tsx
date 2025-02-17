@@ -28,7 +28,7 @@ export default function WhyTableBlock({ keyName, isOpen = false }: { keyName: st
                 <Typography
                     variant="h4"
                     color="secondary.main"
-                    width={{ mobileP: '100%', desktopS: '33.3%' }}
+                    width={{ mobileP: '100%', desktopS: '35%' }}
                     padding={{ mobileP: '10px', tablet: '20px' }}
                 >
                     {t(`why.content.${keyName}.id`)}
@@ -36,7 +36,7 @@ export default function WhyTableBlock({ keyName, isOpen = false }: { keyName: st
 
                 {/* content */}
                 <Stack
-                    width={{ mobileP: '100%', desktopS: '66.7%' }}
+                    width={{ mobileP: '100%', desktopS: '65%' }}
                     gap='10px'
                     paddingLeft={{ mobileP: '10px', tablet: '20px', desktopS: 0 }}
                     paddingRight={{ mobileP: '52px', mobileL: '62px', tablet: '72px', desktopS: '82px', desktopM: '112px' }}
@@ -70,7 +70,12 @@ export default function WhyTableBlock({ keyName, isOpen = false }: { keyName: st
                             }}
                         >
                             {['0', '1', '2'].map((tagKey) => (
-                                <Typography key={tagKey}>
+                                <Typography 
+                                key={tagKey}
+                                fontSize='14px'
+                                lineHeight='120%'
+                                fontWeight='600'
+                                >
                                     {t(`why.content.${keyName}.tags.${tagKey}`)}
                                 </Typography>
                             ))}

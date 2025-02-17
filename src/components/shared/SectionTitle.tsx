@@ -12,7 +12,7 @@ export default function SectionTitle({ sectionKey, titleKey }: { sectionKey: str
             <Typography
                 variant="h4"
                 color='#949494'
-                width={{ mobileP: '100%', desktopS: '33.3%' }}
+                width={{ mobileP: '100%', desktopS: '35%' }}
                 flexShrink={0}
             >
                 {t(sectionKey)}
@@ -20,7 +20,7 @@ export default function SectionTitle({ sectionKey, titleKey }: { sectionKey: str
 
             <Typography
                 variant="h2"
-                width={{ mobileP: '100%', desktopS: '66.7%' }}
+                width={{ mobileP: '100%', desktopS: '65%' }}
                 textTransform='uppercase'
             >
                 {t(titleKey)}

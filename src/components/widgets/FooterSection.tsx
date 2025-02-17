@@ -22,7 +22,7 @@ const FooterSection = () => {
                 gap={{ mobileP: '20px', desktopS: 0 }}
             >
                 <Box
-                    minWidth='33.3%'
+                    minWidth='35%'
                 >
                     VIA TERENZIO 7 - 00193 - ROMA (RM)
                 </Box>
@@ -33,13 +33,13 @@ const FooterSection = () => {
                     width='100%'
                     gap={{ mobileP: '20px', desktopS: 0 }}
                 >
-                    <Link 
-                    href='tel:+390612345678'
-                    color='inherit'>
+                    <Link
+                        href='tel:+390612345678'
+                        color='inherit'>
                         +39 06 12345678
                     </Link>
                     <Box
-                        width={{mobileP:'300px', desktopM:'360px', desktopL:'416px'}}
+                        width={{ mobileP: '300px', desktopM: '360px', desktopL: '416px' }}
                     >
                         greenenergy-srl@pec.it
                     </Box>
@@ -54,7 +54,7 @@ const FooterSection = () => {
 
                 color='primary.main'
             >
-                <Box minWidth='33.3%'>
+                <Box minWidth='35%'>
                     VIA TERENZIO 7 - 00193 - ROMA (RM)
                 </Box>
                 <Box>

@@ -22,7 +22,7 @@ const TestimonialCard = ({ keyName }: { keyName: string }) => {
                 {t(`testimonials.cards.${keyName}.text`)}
             </Typography>
 
-            <Stack>
+            <Stack gap='2px'>
                 <Typography
                     variant='body1'
                     fontWeight='700'

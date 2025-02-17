@@ -13,7 +13,7 @@ export default function AdvantageSection() {
 
                 {/* shape */}
                 <Box
-                    width='33.3%'
+                    width='35%'
                     paddingRight={{ mobileP: '30px', desktopM: '60px' }}
                     display={{ mobileP: 'none', desktopS: 'block' }}
                 >
@@ -22,7 +22,7 @@ export default function AdvantageSection() {
 
                 {/* content */}
                 <Stack
-                    width={{ mobileP: '100%', desktopS: '66.7%' }}
+                    width={{ mobileP: '100%', desktopS: '65%' }}
                     direction={{ mobileP: 'column', tablet: 'row' }}
                     justifyContent='space-between'
                     gap={{ mobileP: '20px', desktopS: '30px', desktopM: '60px' }}
@@ -33,14 +33,14 @@ export default function AdvantageSection() {
                         keys={keys}
                         flex={{ mobileP: 'auto', tablet: 1 }}
                         justifyContent='center'
-                        alignSelf={{mobileP:'flex-start', tablet:'center'}}
+                        alignSelf={{ mobileP: 'flex-start', tablet: 'center' }}
                     />
 
                     <Box
                         flex={{ mobileP: 'auto', tablet: 1 }}
-                        maxHeight={{mobileP:'301px', mobileL:'355px', desktopS:'300px', desktopM:'361px', desktopL:'416px'}}
+                        maxHeight={{ mobileP: '301px', mobileL: '355px', desktopS: '300px', desktopM: '361px', desktopL: '416px' }}
                     >
-                        <img src="./images/advantage/windmills.png" style={{ height: '100%', width: '100%', objectFit:'scale-down' }} />
+                        <img src="./images/advantage/windmills.png" style={{ height: '100%', width: '100%', objectFit: 'scale-down' }} />
                     </Box>
                 </Stack>
             </Stack>

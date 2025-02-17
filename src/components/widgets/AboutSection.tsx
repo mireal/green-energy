@@ -16,8 +16,8 @@ export default function AboutSection() {
 
             <Stack
                 gap='30px'
-                ml={{ mobileP: 0, desktopS: "33.3%" }}
-                width={{ mobileP: "100%", desktopS: "66.7%" }}
+                ml={{ mobileP: 0, desktopS: "35%" }}
+                width={{ mobileP: "100%", desktopS: "65%" }}
             >
 
                 <img

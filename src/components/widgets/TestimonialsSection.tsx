@@ -17,7 +17,7 @@ const TestimonialsSection: React.FC<BoxProps> = () => {
         <Typography
           variant="h4"
           color='#949494'
-          minWidth='33.3%'
+          minWidth='35%'
           marginBottom='20px'
         >
           {t('testimonials.section')}

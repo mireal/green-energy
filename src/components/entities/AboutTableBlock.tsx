@@ -12,19 +12,25 @@ export default function AboutTableBlock({ keyName }: { keyName: string }) {
                 gap='10px'
             >
                 <Typography
-                variant="h4"
-                color="primary.dark"
-                flex={1}
+                    variant="h4"
+                    color="primary.dark"
+                    flex={1}
                 >
                     {t(`about.blocks.${keyName}.title`)}
                 </Typography>
-                <Typography
-                    variant="body1"
-                    color="#949494"
+                <Box
                     flex={1}
+                    
                 >
-                    {t(`about.blocks.${keyName}.text`)}
-                </Typography>
+                    <Typography
+                        variant="body1"
+                        color="#949494"
+                        paddingLeft={{ mobileP: 0, mobileL: '5px', tablet: '10px', desktopS: '15px', desktopM: '30px' }}
+                    >
+                        {t(`about.blocks.${keyName}.text`)}
+                    </Typography>
+                </Box>
+
             </Stack>
         </Box>
     )

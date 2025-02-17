@@ -19,9 +19,9 @@ const FormSection: React.FC<BoxProps> = () => {
                     variant='h1'
                     component='h2'
                     color='primary.contrastText'
-                    minWidth='33.3%'
+                    minWidth='35%'
                     textTransform='uppercase'
-                    paddingRight={{mobileP:0, desktopM:'30px'}}
+                    paddingRight={{ mobileP: 0, desktopM: '30px' }}
                 >
                     {t('form.title')}
                 </Typography>
