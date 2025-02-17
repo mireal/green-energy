@@ -1,0 +1,201 @@
+{
+  "navbar": {
+    "about": "About",
+    "whyWe": "Why we",
+    "services": "Our services",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title 1": "Empowering Your Future",
+    "title 2": "with Turnkey Green",
+    "title 3": "Energy Solutions",
+    "text": "Comprehensive supply, installation, and maintenance services for all renewable energy technologies.",
+    "button": "Connect us"
+  },
+  "about": {
+    "section": "About",
+    "header": "Our mission is to lead the transition to a sustainable future by delivering innovative, efficient, and reliable renewable energy solutions.",
+    "blocks": {
+      "first": {
+        "title": "Sustainability",
+        "text": "We are dedicated to reducing environmental impact and preserving natural resources."
+      },
+      "second": {
+        "title": "Innovation",
+        "text": "We leverage the latest technologies to stay ahead in the renewable energy sector."
+      },
+      "third": {
+        "title": "Reliability",
+        "text": "Our expertise ensures projects are delivered on time and to the highest standards."
+      },
+      "fourth": {
+        "title": "Customer Focus",
+        "text": "We build long-term relationships by meeting and exceeding client expectations."
+      }
+    }
+  },
+  "why": {
+    "section": "Why Choose Us?",
+    "title": "With years of experience in renewable energy and countless successful installations, here’s why we stand out:",
+    "content": [
+      {
+        "id": "01",
+        "header": "Leading Provider of Renewable Energy",
+        "paragraph": "We are one of the largest providers of renewable energy in Europe, offering high-quality solutions for businesses of all sizes. With years of experience and a solid track record, we guarantee reliability and efficiency in every project.",
+        "tags": ["Proven success", "Industry leader", "Trusted partner"]
+      },
+      {
+        "id": "02",
+        "header": "Turnkey Solutions",
+        "paragraph": "We manage the entire process, from consultation to design, installation, and maintenance. Our end-to-end approach simplifies the energy transition, eliminating the need for multiple providers and ensuring efficient project execution.",
+        "tags": ["Turnkey service", "Seamless execution", "Long-term support"]
+      },
+      {
+        "id": "03",
+        "header": "Reliability for Large Enterprises",
+        "paragraph": "Our clients include major European companies, industries, and government institutions. We are recognized for our reliability, transparency, and commitment to delivering sustainable energy solutions that meet the highest industry standards.",
+        "tags": ["Recognized leader", "Certified solutions", "Long-term partnerships"]
+      },
+      {
+        "id": "04",
+        "header": "Advanced Technology & Sustainability",
+        "paragraph": "We use innovative technologies in the renewable energy sector to maximize efficiency and reduce environmental impact. Smart monitoring systems optimize energy production, ensuring sustainability and long-term affordability.",
+        "tags": ["Smart systems", "High efficiency", "Low environmental impact"]
+      },
+      {
+        "id": "05",
+        "header": "Expert and Certified Team",
+        "paragraph": "Our experts are internationally certified and continuously updated on the latest industry innovations. We offer customized energy solutions, ensuring high-quality service and long-term reliability for every client.",
+        "tags": ["Certified experts", "Personalized approach", "Decades of experience"]
+      }
+    ]
+  },
+  "services": {
+    "section": "Our Services",
+    "title": "Comprehensive Renewable Energy Solutions",
+    "cards": {
+      "consultation": {
+        "title": "Energy Consultation",
+        "paragraph": "Assessing your energy needs and designing optimal solutions."
+      },
+      "engineering": {
+        "title": "System Design & Engineering",
+        "paragraph": "Customized systems to maximize performance and sustainability."
+      },
+      "supply": {
+        "title": "Supply of Equipment",
+        "paragraph": "High-quality solar panels, wind turbines, batteries, and more."
+      },
+      "installation": {
+        "title": "Installation Services",
+        "paragraph": "Professional installation by certified technicians."
+      },
+      "monitoring": {
+        "title": "Energy Monitoring & Management",
+        "paragraph": "Ongoing support for long-term efficiency and reliability."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "paragraph": "Ongoing support for long-term efficiency and reliability."
+      }
+    }
+  },
+  "cta": {
+    "1-left": "Switch to clean ",
+    "1-right": "energy",
+    "2": "with our turnkey solutions.",
+    "3-left": "Reliable, ",
+    "3-right": " efficient, and",
+    "4": "sustainable. Contact us today",
+    "5-left": "to get ",
+    "5-right": " started!",
+    "button": "Connect us"
+  },
+  "advantage": {
+    "section": "What You Gain with Us",
+    "title": "Our renewable energy solutions help you save costs, reduce environmental impact, increase property value, and achieve energy independence for a sustainable future.",
+    "blocks": {
+      "1": "Reduced energy costs with efficient renewable systems.",
+      "2": "Lower environmental impact and carbon footprint.",
+      "3": "Enhanced property value through sustainable energy integration.",
+      "4": "Energy independence and security for the future."
+    }
+  },
+  "testimonials": {
+    "section": "Client Testimonials",
+    "button-more": "Show more",
+    "button-less": "Show less",
+    "cards": [
+      {
+        "text": "Exceptional service from start to finish! The team handled everything seamlessly, and our energy costs have dropped significantly. Highly recommended!",
+        "author": "Luca Romano",
+        "profession": "Manufacturing Plant Owner",
+        "location": "Italy"
+      },
+      {
+        "text": "Reliable, professional, and committed to sustainability. Our hotels now run on clean energy, reducing costs and enhancing our eco-friendly reputation. Their expertise and seamless execution made the transition effortless.",
+        "author": "Sophie Martin",
+        "profession": "Hotel Chain Manager",
+        "location": "France "
+      },
+      {
+        "text": "We wanted a more energy-efficient production facility. Their team provided a seamless transition to renewable energy, optimizing our operations while lowering costs. The installation was fast, and their ongoing support has been outstanding. A trusted partner for sustainability!",
+        "author": "Johan Andersson",
+        "profession": "Industrial Engineer",
+        "location": "Sweden"
+      },
+      {
+        "text": "Switching to renewable energy has increased our property value while lowering operational expenses. Their team took care of everything, and the results speak for themselves.",
+        "author": "Elena Rossi",
+        "profession": "Real Estate Developer",
+        "location": "Italy"
+      },
+      {
+        "text": "The best investment we’ve made! Our facility now runs on clean energy, and their smart monitoring system ensures everything is optimized for efficiency.",
+        "author": "Patrick Müller",
+        "profession": "Logistics Center Director",
+        "location": "Germany"
+      },
+      {
+        "text": "As a farm owner, energy independence was a priority. Their solar and wind solutions allow us to operate sustainably while cutting down costs. A fantastic team that truly understands green energy!",
+        "author": "Miguel Álvarez",
+        "profession": "Agricultural Business Owner",
+        "location": "Spain"
+      }
+    ]
+  },
+  "form": {
+    "title": "Get in Touch with Us",
+    "info": "Have questions or want to learn more about our solar solutions? Fill out the form below, and our team will respond within 24 hours.",
+    "button": "Submit",
+    "success": "Thank you! Your request has been received!",
+    "error": "Oops! Something went wrong while submitting the form.",
+    "placeholder": {
+      "name": "NAME",
+      "email": "EMAIL",
+      "phone": "PHONE NUMBER",
+      "message": "MESSAGE"
+    },
+    "validation": {
+      "name": {
+        "min": "Name must be at least 2 characters long",
+        "max": "Name must be at most 50 characters long",
+        "match": "Name can only contain letters and spaces",
+        "required": "Name is required"
+      },
+      "phone": {
+        "match": "Invalid phone number",
+        "required": "Phone number is required"
+      },
+      "email": {
+        "email": "Invalid email address format",
+        "required": "Email is required"
+      },
+      "message": {
+        "min": "Message must be at least 10 characters long",
+        "max": "Message must be at most 500 characters long",
+        "required": "Message is required"
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "navbar": {
+    "about": "Сhi siamo",
+    "whyWe": "Perché noi",
+    "services": "I nostri servizi",
+    "contacts": "Contatti"
+  },
+  "hero": {
+    "title 1": "Diamo energia al tuo futuro",
+    "title 2": "con soluzioni chiavi in mano",
+    "title 3": "per l'energia verde",
+    "text": "Fornitura, installazione e manutenzione complete per tutte le tecnologie di energia rinnovabile.",
+    "button": "Contattaci"
+  },
+  "about": {
+    "section": "Chi siamo",
+    "header": "La nostra missione è guidare la transizione verso un futuro sostenibile fornendo soluzioni innovative, efficienti e affidabili nel settore delle energie rinnovabili.",
+    "blocks": {
+      "first": {
+        "title": "Sostenibilità",
+        "text": "Ci impegniamo a ridurre l'impatto ambientale e a preservare le risorse naturali."
+      },
+      "second": {
+        "title": "Innovazione",
+        "text": "Sfruttiamo le tecnologie più avanzate per rimanere all'avanguardia nel settore delle energie rinnovabili."
+      },
+      "third": {
+        "title": "Affidabilità",
+        "text": "La nostra esperienza garantisce la consegna dei progetti nei tempi previsti e secondo i più alti standard di qualità."
+      },
+      "fourth": {
+        "title": "Orientamento al cliente",
+        "text": "Costruiamo relazioni durature soddisfacendo e superando le aspettative dei nostri clienti."
+      }
+    }
+  },
+  "why": {
+    "section": "Perché scegliere noi?",
+    "title": "Con anni di esperienza nel settore delle energie rinnovabili e numerose installazioni di successo, ecco perché ci distinguiamo:",
+    "content": [
+      {
+        "id": "01",
+        "header": "Principale Fornitore di Energia Rinnovabile",
+        "paragraph": "Siamo uno dei maggiori fornitori di energia rinnovabile in Europa, offrendo soluzioni di alta qualità per aziende di ogni dimensione. Con anni di esperienza e un solido track record, garantiamo affidabilità ed efficienza in ogni progetto.",
+        "tags": ["Successo comprovato", "Leader del settore", "Partner di fiducia"]
+      },
+      {
+        "id": "02",
+        "header": "Soluzioni Chiavi in Mano",
+        "paragraph": "Gestiamo l'intero processo, dalla consulenza alla progettazione, installazione e manutenzione. Il nostro approccio end-to-end semplifica la transizione energetica, eliminando la necessità di più fornitori e garantendo un'esecuzione efficiente del progetto.",
+        "tags": ["Servizio chiavi in mano", "Esecuzione senza intoppi", "Supporto a lungo termine"]
+      },
+      {
+        "id": "03",
+        "header": "Affidabilità per le Grandi Aziende",
+        "paragraph": "I nostri clienti includono le principali aziende europee, industrie e istituzioni governative. Siamo riconosciuti per la nostra affidabilità, trasparenza e impegno nel fornire soluzioni energetiche sostenibili che rispettano i più alti standard del settore.",
+        "tags": ["Leader riconosciuto", "Soluzioni certificate", "Partnership a lungo termine"]
+      },
+      {
+        "id": "04",
+        "header": "ecnologia Avanzata & Sostenibilità",
+        "paragraph": "Utilizziamo tecnologie innovative nel settore delle energie rinnovabili per massimizzare l'efficienza e ridurre l'impatto ambientale. I sistemi di monitoraggio intelligente ottimizzano la produzione di energia, garantendo sostenibilità e convenienza a lungo termine.",
+        "tags": ["Sistemi intelligenti", "Alta efficienza", "Basso impatto ambientale"]
+      },
+      {
+        "id": "05",
+        "header": "Team Esperto e Certificato",
+        "paragraph": "I nostri esperti sono certificati a livello internazionale e continuamente aggiornati sulle ultime innovazioni del settore. Offriamo soluzioni energetiche personalizzate, garantendo un servizio di alta qualità e affidabilità a lungo termine per ogni cliente.",
+        "tags": ["Esperti certificati", "Approccio personalizzato", "Decenni di esperienza"]
+      }
+    ]
+  },
+  "services": {
+    "section": "I nostri servizi",
+    "title": "Soluzioni Complete di Energia Rinnovabile",
+    "cards": {
+      "consultation": {
+        "title": "Consulenza Energetica",
+        "paragraph": "Analisi delle tue esigenze energetiche e progettazione di soluzioni ottimali."
+      },
+      "engineering": {
+        "title": "Progettazione e Ingegneria",
+        "paragraph": "Analisi delle tue esigenze energetiche e progettazione di soluzioni ottimali."
+      },
+      "supply": {
+        "title": "Fornitura di Attrezzature",
+        "paragraph": "Pannelli solari, turbine eoliche, batterie di alta qualità e molto altro."
+      },
+      "installation": {
+        "title": "Servizi di Installazione",
+        "paragraph": "Installazione professionale eseguita da tecnici certificati."
+      },
+      "monitoring": {
+        "title": "Monitoraggio e Gestione dell’Energia",
+        "paragraph": "Sistemi avanzati per tracciare, ottimizzare e immagazzinare energia."
+      },
+      "maintenance": {
+        "title": "Manutenzione e Assistenza",
+        "paragraph": "Supporto continuo per garantire efficienza e affidabilità a lungo termine."
+      }
+    }
+  },
+  "cta": {
+    "1-left": "Passa all'energia ",
+    "1-right": "pulita",
+    "2": "con soluzioni chiavi in mano.",
+    "3-left": "Affidabili, ",
+    "3-right": " efficienti e",
+    "4": "sostenibili. Contattaci ora",
+    "5-left": "ora per ",
+    "5-right": " iniziare!",
+    "button": "Contattaci"
+  },
+  "advantage": {
+    "section": "Cosa ottieni con noi",
+    "title": "Le nostre soluzioni di energia rinnovabile ti aiutano a risparmiare, ridurre l'impatto ambientale, aumentare il valore della proprietà e raggiungere l'indipendenza energetica per un futuro sostenibile.",
+    "blocks": {
+      "1": "Riduzione dei costi energetici con sistemi rinnovabili efficienti.",
+      "2": "Minore impatto ambientale e riduzione dell'impronta di carbonio.",
+      "3": "Maggiore valore della proprietà grazie all’integrazione di energia sostenibile.",
+      "4": "Indipendenza energetica e sicurezza per il futuro."
+    }
+  },
+  "testimonials": {
+    "section": "Testimonianze dei Clienti",
+    "button-more": "Mostra di più",
+    "button-less": "Mostra di meno",
+    "cards": [
+      {
+        "text": "Servizio eccezionale! L'intero processo è stato fluido e ora risparmiamo significativamente sui costi energetici.",
+        "author": "Luca Romano",
+        "profession": "Proprietario di impianto di produzione",
+        "location": "Italia"
+      },
+      {
+        "text": "Affidabili, professionali e impegnati nella sostenibilità. I nostri hotel funzionano ora con energia pulita, riducendo i costi e migliorando la nostra reputazione ecologica. La loro esperienza e un'installazione impeccabile hanno reso la transizione semplice.",
+        "author": "Sophie Martin",
+        "profession": "Manager di catena alberghiera",
+        "location": "Francia"
+      },
+      {
+        "text": "Volevamo un impianto di produzione più efficiente dal punto di vista energetico. Il loro team ha fornito una transizione senza intoppi all'energia rinnovabile, ottimizzando le operazioni e riducendo i costi. L'installazione è stata rapida e il supporto continuo eccellente. Un partner di fiducia per la sostenibilità!",
+        "author": "Johan Andersson",
+        "profession": "Ingegnere industriale",
+        "location": "Svezia"
+      },
+      {
+        "text": "Passare alle energie rinnovabili ha aumentato il valore della nostra proprietà e ridotto le spese operative. Il loro team si è occupato di tutto e i risultati parlano da soli.",
+        "author": "Elena Rossi",
+        "profession": "Sviluppatrice immobiliare",
+        "location": "Italia"
+      },
+      {
+        "text": "Il miglior investimento che abbiamo fatto! La nostra struttura ora funziona con energia pulita e il loro sistema di monitoraggio intelligente ottimizza tutto per la massima efficienza.",
+        "author": "Patrick Müller",
+        "profession": "Direttore di centro logistico",
+        "location": "Germania"
+      },
+      {
+        "text": "Come agricoltore, l'indipendenza energetica era una priorità. Le loro soluzioni solari ed eoliche ci permettono di operare in modo sostenibile riducendo i costi. Un team fantastico che conosce davvero l'energia verde!",
+        "author": "Miguel Álvarez",
+        "profession": "Proprietario di azienda agricola",
+        "location": "Spagna"
+      }
+    ]
+  },
+  "form": {
+    "title": "Mettiti in contatto con noi",
+    "info": "Hai domande o vuoi saperne di più sulle nostre soluzioni solari? Compila il modulo qui sotto e il nostro team ti risponderà entro 24 ore.",
+    "button": "Invia",
+    "success": "Grazie! La tua richiesta è stata ricevuta!",
+    "error": "Oops! Qualcosa è andato storto durante l'invio del modulo.",
+    "placeholder": {
+      "name": "NOME",
+      "email": "EMAIL",
+      "phone": "Numero di telefono",
+      "message": "MESSAGIO"
+    },
+    "validation": {
+      "name": {
+        "min": "Il nome deve contenere almeno 2 caratteri",
+        "max": "Il nome non può superare i 50 caratteri",
+        "match": "Il nome può contenere solo lettere e spazi",
+        "required": "Il nome è obbligatorio"
+      },
+      "phone": {
+        "match": "Numero di telefono non valido",
+        "required": "Il numero di telefono è obbligatorio"
+      },
+      "email": {
+        "email": "Formato dell'indirizzo email non valido",
+        "required": "L'email è obbligatoria"
+      },
+      "message": {
+        "min": "Il messaggio deve contenere almeno 10 caratteri",
+        "max": "Il messaggio non può superare i 500 caratteri",
+        "required": "Il messaggio è obbligatorio"
+      }
+    }
+  }
+}
