@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from '@mui/material'
+import { Box, Link, Stack, Typography } from '@mui/material'
 import React from 'react'
 
 const FooterSection = () => {
@@ -33,9 +33,11 @@ const FooterSection = () => {
                     width='100%'
                     gap={{ mobileP: '20px', desktopS: 0 }}
                 >
-                    <Box>
+                    <Link 
+                    href='tel:+390612345678'
+                    color='inherit'>
                         +39 06 12345678
-                    </Box>
+                    </Link>
                     <Box
                         width={{mobileP:'300px', desktopM:'360px', desktopL:'416px'}}
                     >
