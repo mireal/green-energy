@@ -2,6 +2,9 @@ import { Box, Link, Stack, Typography } from '@mui/material'
 import React from 'react'
 
 const FooterSection = () => {
+    const address = 'VIA TERENZIO 7 - 00193 - ROMA (RM)'
+    const email = 'greenenergy-srl@pec.it'
+
     return (
         <Stack
             maxWidth='1440px'
@@ -21,11 +24,15 @@ const FooterSection = () => {
                 lineHeight='115%'
                 gap={{ mobileP: '20px', desktopS: 0 }}
             >
-                <Box
+                <Link
+                    color='inherit'
                     minWidth='35%'
+                    href={`https://www.google.com/maps/search/?api=1&query=${address}`}
+                    target="_blank" 
+                    rel="noopener noreferrer"
                 >
-                    VIA TERENZIO 7 - 00193 - ROMA (RM)
-                </Box>
+                    {address}
+                </Link>
 
                 <Stack
                     direction={{ mobileP: 'column', desktopS: 'row' }}
@@ -38,11 +45,13 @@ const FooterSection = () => {
                         color='inherit'>
                         +39 06 12345678
                     </Link>
-                    <Box
+                    <Link
+                        color='inherit'
                         width={{ mobileP: '300px', desktopM: '360px', desktopL: '416px' }}
+                        href={`mailto:${email}`}
                     >
-                        greenenergy-srl@pec.it
-                    </Box>
+                        {email}
+                    </Link>
                 </Stack>
             </Typography>
 
@@ -55,7 +64,7 @@ const FooterSection = () => {
                 color='primary.main'
             >
                 <Box minWidth='35%'>
-                    VIA TERENZIO 7 - 00193 - ROMA (RM)
+                    {address}
                 </Box>
                 <Box>
                     Partita IVA: 16087171001
