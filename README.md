@@ -1,6 +1,7 @@
 # Green Energy
 
-Green Energy landing page. Built With [React](https://react.dev/), [Material-UI](https://mui.com/material-ui/), [Vite](https://vite.dev/)
+Green Energy landing page. Built With [React](https://react.dev/), [Material-UI](https://mui.com/material-ui/), [Vite](https://vite.dev/)</br>
+Visit this page on [Vercel](https://green-energy-beta.vercel.app/)
 
 ## Figma Design
 
