@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import WhyTableBlock from "../entities/WhyTableBlock";
+import WhyTableBlock from "@/components/entities/WhyTableBlock";
 
 export default function WhySectionTable({ keys }: { keys: string[] }) {
     return (

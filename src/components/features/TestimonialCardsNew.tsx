@@ -4,41 +4,33 @@ import TestimonialCard from '../entities/TestimonialCard'
 import SouthEastIcon from "@mui/icons-material/SouthEast";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 import { useTranslation } from 'react-i18next';
-import { Button } from '@mui/material';
+import { Button, Collapse } from '@mui/material';
 
-const TestimonialCards = ({ keys }: { keys: string[] }) => {
+interface TestimonialCardsProps {
+    keys: string[]
+}
+
+const TestimonialCards: React.FC<TestimonialCardsProps> = ({ keys }) => {
     const { t } = useTranslation();
-
     const [open, setOpen] = useState(true);
-    const [buttonLabel, setButtonLabel] = useState(t("testimonials.button-more"));
-    const [buttonIcon, setButtonIcon] = useState(<SouthEastIcon />);
-    const [limit, setLimit] = useState(3);
 
-    const handleClick = () => {
-        setOpen(!open);
-        console.log(open);
-        const buttonLabelChoice = open
-            ? t("testimonials.button-less")
-            : t("testimonials.button-more");
-        setButtonLabel(buttonLabelChoice);
-
-        const buttonIconChoice = open ? <NorthEastIcon /> : <SouthEastIcon />;
-        setButtonIcon(buttonIconChoice);
-
-        const limitChoice = open ? keys.length : 3;
-        setLimit(limitChoice);
-    };
     return (
-        <Stack
-            gap='10px'
-        >
-            {keys.slice(0, limit).map((keyName) => (
+        <Stack gap='10px'>
+            {keys.slice(0, 3).map((keyName) => (
                 <TestimonialCard key={keyName} keyName={keyName} />
             ))}
 
+            <Collapse in={open}>
+                <Stack gap='10px'>
+                    {keys.slice(3, keys.length).map((keyName) => (
+                        <TestimonialCard key={keyName} keyName={keyName} />
+                    ))}
+                </Stack>
+            </Collapse>
+
             <Button
-                endIcon={buttonIcon}
-                onClick={handleClick}
+                endIcon={open ? <NorthEastIcon /> : <SouthEastIcon />}
+                onClick={() => setOpen(!open)}
                 fullWidth
                 sx={{
                     marginTop: '10px',
@@ -53,7 +45,7 @@ const TestimonialCards = ({ keys }: { keys: string[] }) => {
                     textTransform: 'initial'
                 }}
             >
-                {buttonLabel}
+                {open ? t("testimonials.button-less") : t("testimonials.button-more")}
             </Button>
         </Stack>
     )

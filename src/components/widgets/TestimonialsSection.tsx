@@ -1,7 +1,7 @@
 import React from 'react'
 import PaddedSection from '../shared/PaddedSection'
 import { BoxProps, Stack, Typography } from '@mui/material'
-import TestimonialCards from '../features/TestimonialCards'
+import TestimonialCards from '../features/TestimonialCardsNew'
 import { useTranslation } from 'react-i18next'
 
 const keys = ['0', '1', '2', '3', '4', '5']
